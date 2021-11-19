@@ -52,7 +52,7 @@
     
     try {
         var selectSimple = $('.js-select-simple');
-    
+        console.log("aaa");
         selectSimple.each(function () {
             var that = $(this);
             var selectBox = that.find('select');
